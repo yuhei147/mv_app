@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title('動画置き場')
-st.write('左の「>」ボタンからのセレクトボックスで表示し、動画を選択してください')
+st.write('左の「>」ボタンからのセレクトボックスを表示し、動画を選択してください')
 
 option = st.sidebar.selectbox(
     '動画選択',
